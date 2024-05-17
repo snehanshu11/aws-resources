@@ -1,10 +1,7 @@
-# users
-# groups
-- Multiple users can be assigend to a group
-# roles 
-- can be assigned to any identity (users, group, roles, federated users etc).
-# policies
--  used to authorize an identity
+- users
+- groups: Multiple users can be assigend to a group
+- roles: can be assigned to any identity (users, group, roles, federated users etc).
+- policies: used to authorize an identity
 
 # scenario1 -  Give a user temporary access to S3 buckets in the account
 -  create a user sxs356
